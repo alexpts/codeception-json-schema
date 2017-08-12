@@ -29,7 +29,6 @@ if (null !== $errorsMessage) {
 ```
 
 Example (codeception module): 
-...
 
 ```php
 class RegionsCest
