@@ -11,7 +11,7 @@
 Simple validator json schema + module for codeception.
 
 
-Example:
+Example (without codeception):
 
 ```php
 use \PTS\JsonSchema;
@@ -27,3 +27,6 @@ if (null !== $errorsMessage) {
 }
 
 ```
+
+Example (codeception moduel): 
+...
