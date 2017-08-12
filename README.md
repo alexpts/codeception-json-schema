@@ -28,5 +28,22 @@ if (null !== $errorsMessage) {
 
 ```
 
-Example (codeception moduel): 
+Example (codeception module): 
 ...
+
+```php
+class RegionsCest
+{
+    public function _before(FunctionalTester $I)
+    {
+        $I->haveHttpHeader('Authorization', 'Bearer xxx');
+    }
+
+    public function getRegionsList(FunctionalTester $I)
+    {
+        $I->sendGET('/v1/regions/');
+        $I->seeResponseCodeIs(200);
+        $I->validateJsonSchema($I->grabResponse(), '/v1/regions/get.json');
+    }
+}
+```
