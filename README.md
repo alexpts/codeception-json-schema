@@ -1,6 +1,6 @@
 # json-schema
 
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/de0407d9-12fe-4d3d-a688-9b29b10a0e46/big.png)](https://insight.sensiolabs.com/projects/de0407d9-12fe-4d3d-a688-9b29b10a0e46)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/20e239e7-e00e-46a0-b328-a2a31864b841/big.png)](https://insight.sensiolabs.com/projects/20e239e7-e00e-46a0-b328-a2a31864b841)
 
 [![Build Status](https://travis-ci.org/alexpts/codeception-json-schema.svg?branch=master)](https://travis-ci.org/alexpts/codeception-json-schema)
 [![Code Coverage](https://scrutinizer-ci.com/g/alexpts/codeception-json-schema/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/alexpts/codeception-json-schema/?branch=master)
