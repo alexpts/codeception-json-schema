@@ -38,6 +38,6 @@ class JsonSchema extends Module
     public function validateJsonSchema(string $response, string $pathSchema): void
     {
         $errors = $this->validator->validateJsonSchema($response, $pathSchema);
-        $this->assertTrue($errors !== null, $errors);
+        $this->assertTrue($errors === null, $errors);
     }
 }
