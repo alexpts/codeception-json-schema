@@ -1,0 +1,6 @@
+{
+  "id": "http://other.org/v1/uri.json",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "description": "Test uri",
+  "type": "string"
+}

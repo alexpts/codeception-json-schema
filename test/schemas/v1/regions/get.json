@@ -1,0 +1,16 @@
+{
+  "id": "http://demo.org/v1/regions/get.json",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "description": "Models of region",
+  "required": true,
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": {
+        "extends": {"$ref": "http://demo.org/v1/regions/region-model.json"}
+      }
+    }
+  }
+}

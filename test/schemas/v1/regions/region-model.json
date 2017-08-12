@@ -1,0 +1,18 @@
+{
+  "id": "http://demo.org/v1/regions/region-model.json",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "description": "A model of region",
+  "required": true,
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
