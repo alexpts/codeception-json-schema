@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/alexpts/codeception-json-schema.svg?branch=master)](https://travis-ci.org/alexpts/codeception-json-schema)
 [![Code Coverage](https://scrutinizer-ci.com/g/alexpts/codeception-json-schema/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/alexpts/codeception-json-schema/?branch=master)
 [![Code Climate](https://codeclimate.com/github/alexpts/codeception-json-schema/badges/gpa.svg)](https://codeclimate.com/github/alexpts/codeception-json-schema)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/alexpts/codeception-json-schemar/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/alexpts/codeception-json-schema/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/alexpts/codeception-json-schema/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/alexpts/codeception-json-schema/?branch=master)
 
 
 Simple validator json schema + module for codeception.
