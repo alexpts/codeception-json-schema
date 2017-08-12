@@ -27,7 +27,7 @@ class JsonSchema extends Module
 
         $this->validator = new \PTS\JsonSchema;
 
-        if (!array_key_exists('baseUri', $this->config)) {
+        if (array_key_exists('baseUri', $this->config)) {
             $this->validator->setBaseUri($this->config['baseUri']);
         }
 
