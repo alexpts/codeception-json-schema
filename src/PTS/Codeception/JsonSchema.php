@@ -1,5 +1,5 @@
 <?php
-namespace PTS\modules;
+namespace PTS\Codeception;
 
 use Codeception\Configuration;
 use Codeception\Module;
